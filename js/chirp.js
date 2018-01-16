@@ -3,9 +3,7 @@ function chirp(n){
   console.log(n);
   if( n === 1){
     return ' chirp';
-  } else {
-   return ' chirp' + chirp(--n);
-  }
+  } 
 }
 
 
